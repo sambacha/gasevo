@@ -1,0 +1,7 @@
+P = Last Price (taken at 1 minute intervals)
+Stdev = Sample Standard Deviation
+Ln = Natural Logarithm
+Sqrt = Square Root
+
+.EVOL7D Index = Stdev(Ln(P1/P0), Ln(P2/P1), ..., Ln(P10080/P10079))
+              * Sqrt(10080)
