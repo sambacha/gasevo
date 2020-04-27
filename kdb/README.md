@@ -1,8 +1,9 @@
-# Orderbook/Microstructure data 
+# Orderbook/Microstructure data: examining execution and transaction settlement 
+
 
 ### ETH Trading pair data
 
-I have made a request to Kraken and some other exchanges on Iceberg orders, non-gtc orders (e.g. FOK), requesting.
+I have made a request to Kraken and some other exchanges on Iceberg orders, non-gtc orders (e.g. FOK), requesting that information is usually propreitary trade data. Doubtful will happen.
 
 ### SPY 4/21/2020 Trading OHLC Orderbook (Nasdaq format/routing)
 
@@ -13,24 +14,25 @@ I have made a request to Kraken and some other exchanges on Iceberg orders, non-
 
 Other data from Nomics, Dune Analytics (see snippets folder for sql queries)
 
-Thanks to KX & First Derivatives for 
 
 
-
-
+<br>
 # Setting up kdb+ 
-
+<br>
 A vanilla kdb+ installation consists of 3 files - q, q.k and kc.lic
 q.k and kc.lic should both reside in the default directory $HOME/q
-
-~/q$ tree
-.
-+-- kc.lic
-+-- l64
-|   +-- q
-+-- q.k
-1 directory, 3 files
-
+<br>
+~/q$ tree <br>
+.<br>
++-- kc.lic<br>
++-- l64<br>
+|   +-- q<br>
++-- q.k<br>
+1 directory, 3 files<br>
+<br>
 [kx.com setup instructions](https://code.kx.com/q/learn/install/)
-
+<br>
 technical paper from KX on ["Transaction-cost analysis using kdb+"](https://code.kx.com/q/wp/transaction-cost/)
+<br>
+<br>
+Thanks to KX & First Derivatives for providing an (open) licensewners. Tradingphysics.org for the order tick data, and Hanne Johansson form Nasdaq for answering some questions on pro rata matching.
