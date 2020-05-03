@@ -1,0 +1,31 @@
+{
+  "name": "gasevo",
+  "version": "1.0.0",
+  "description": "Ethereum Options on gwei ",
+  "main": "saddle.config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/commodityfx/gasevo.git"
+  },
+  "keywords": [
+    "options",
+    "markets",
+    "ethereum",
+    "trading"
+  ],
+  "author": "samb",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/commodityfx/gasevo/issues"
+  },
+  "homepage": "https://github.com/commodityfx/gasevo#readme",
+  "devDependencies": {
+    "jest": "^25.5.4"
+  }
+}

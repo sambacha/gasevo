@@ -1,0 +1,15 @@
+web3-provider-engine
+web3
+jest
+jest-cli
+jest-diff
+jest-junit
+ts-jest
+typescript
+ganache-core
+fast-glob
+ethereumjs-tx
+@types/jest
+@compound-finance/sol-coverage
+@0x/subproviders
+@0x/sol-tracing-utils
