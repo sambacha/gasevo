@@ -88,4 +88,15 @@ exerciseContract - The number of goTokens to be exercised.
 
 RETURN - 0 on success, otherwise an Error Code.
 
+---
+
+TODO:
+Integrate Oracle 
+Integrate Escrow Pool Contract
+Integrate yUSD via Curve
+Silo contract expiry into distinct "markets"
+testing 
+v1 w/o inverse saddle trigger
+
+
 🚧 
