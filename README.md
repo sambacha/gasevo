@@ -22,6 +22,14 @@
 
 # Instrument Design
 
+The purpose of embedded permission service is to restrict access to the
+invocation of the functions defined in the smart contracts. Users can identify
+the authorities for the selected function in the smart contract by providing
+the authority addresses. The service adds permission control code to the
+smart contract function to check permissions for every caller based on the
+blockchain addresses of the caller, which is done before executing the function
+logic.
+
 ### Baseline
 ```javascript
 [Open/Close],[block_expiry],[increment_tick_lbo],[strike_threashold_inverse_saddle],[yUSD(MFR)]
