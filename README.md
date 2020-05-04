@@ -53,15 +53,21 @@ Transaction fee (ETH): 0.0095353
 Transaction fee (yUSD Fiat): $2.04055
 ```
 
-
-
 ## MarginRate [marginRatePerBlock]
 
-GasTokenV2 / pEther
+We take GasTokenV2 specifications and find the exchange value in `gwei`
+
+`GasTokenV2 / Ether (gwei) = gEther`
+
+We then calculate the GasRate 
+
+`GasRate = gEther/Time`
+
+Which is a function of the margin rate per block in (uint)
 
 `function marginRatePerBlock() returns (uint)`
 
-`RETURN` : The current margin rate as an unsigned integer, scaled by 1e18.
+`RETURN` : The current margin rate as an unsigned integer, scaled by 1e18 as calculated using the GasRate 
 
 
 
@@ -88,6 +94,7 @@ exerciseContract - The number of goTokens to be exercised.
 
 RETURN - 0 on success, otherwise an Error Code.
 
+🚧 
 ---
 
 TODO:
