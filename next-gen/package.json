@@ -1,0 +1,22 @@
+{
+  "name": "gasevo",
+  "description": "Gwei Pricing for Ethereum/EVM-based Blockchains",
+  "license": "MPL-2.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sambacha/gasevo.git"
+  },
+  "dependencies": {
+    "@types/collections": "5.0.0",
+    "@types/koa2-cors": "2.0.1",
+    "@types/node": "14.0.27",
+    "@types/node-fetch": "2.5.7",
+    "collections": "5.1.2",
+    "ethereumjs-blockstream": "7.0.0",
+    "koa": "2.4.1",
+    "koa2-cors": "2.0.5",
+    "node-fetch": "2.6.0",
+    "typescript": "3.9.7"
+  }
+}
