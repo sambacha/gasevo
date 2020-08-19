@@ -1,0 +1,13 @@
+{
+  "$id": "derivative"
+  "symbol: "string",
+  "exchange: "string",
+  "lastPrice: "signed integer",
+  "openInterest": "signed integer",
+  "fundingRate": "signed integer",
+  "indexPrice": "unsigned integer",
+  "markPrice": "unsigned integer",
+  "timestamp": "unix_epoch",
+  "localTimestamp": "[MMDDYYYY]"
+  "blockTime": "CURRENT_BLOCK"
+}
