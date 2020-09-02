@@ -1,3 +1,5 @@
+pragma solidity >=0.4.23 <0.7.0;
+
 contract GST2 {
 	function freeUpTo(uint256 value) public returns (uint256 freed);
 	function freeFromUpTo(address from, uint256 value) public returns (uint256 freed);	

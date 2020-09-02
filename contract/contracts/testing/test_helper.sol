@@ -1,4 +1,4 @@
-pragma solidity ^0.4.10;
+pragma solidity >=0.4.10 <0.7.0;
 
 contract Token {
     function free(uint256 value) returns (bool success);
