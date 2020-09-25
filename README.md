@@ -2,9 +2,11 @@
 
 > Embedded Controllable Liquidity
 
-## Note
+## New Contracts TO BE DEPLOYED 
 
-Some additional sections are being added with language being changed.
+## Generalized EVO protocol can be found in a seperate repo, to be made public in 2-3 weeks (after audit)
+
+
 <br>
 #### TL:DR = EVO = MANIFOLDS
 
